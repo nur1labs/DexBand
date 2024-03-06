@@ -1,5 +1,5 @@
 {
-  "name": "spotify-electron",
+  "name": "dex-band",
   "version": "1.0.0",
   "description": "A Spotify clone made with Electron",
   "author": "Antonio Martinez Fernandez",
@@ -153,8 +153,8 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "Spotify Electron",
-    "appId": "org.erb.SpotifyElectron",
+    "productName": "DexBand",
+    "appId": "org.erb.DexBand",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [

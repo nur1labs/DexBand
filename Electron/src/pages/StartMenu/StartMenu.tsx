@@ -81,25 +81,25 @@ export default function StartMenu({
           <img
             src={SpotifyElectronLogo}
             className="img-fluid"
-            alt="Spotify Electron Logo"
+            alt="DexBand Logo"
           />
-          <h2>Spotify Electron</h2>
+          <h2>DexBand</h2>
         </div>
 
         <hr />
 
-        <h1>Inicia sesión en Spotify Electron</h1>
+        <h1>Welcome.  Start DexBand Session</h1>
         <form className={`d-flex flex-column ${styles.formWrapper}`}>
           <label
             htmlFor="username"
             className="d-flex flex-column justify-content-start"
           >
-            Nombre de usuario
+            Please enter your username
             <input
               type="text"
               name="nombre"
               id="nombre"
-              placeholder="Nombre de usuario"
+              placeholder="Please enter your username"
               onChange={handleChange}
               spellCheck={false}
               required
@@ -109,12 +109,12 @@ export default function StartMenu({
             htmlFor="password"
             className="d-flex flex-column justify-content-start"
           >
-            Contraseña
+            Enter your password
             <input
               type="password"
               name="password"
               id="password"
-              placeholder="Contraseña"
+              placeholder="Enter your password"
               onChange={handleChange}
               spellCheck={false}
               required
@@ -126,7 +126,7 @@ export default function StartMenu({
             className={`${styles.loginButton}`}
             onClick={handleLogin}
           >
-            Iniciar sesión
+            Login
           </button>
         </form>
 
@@ -136,7 +136,7 @@ export default function StartMenu({
           className={`d-flex w-100 justify-content-center ${styles.wrapperRegisterText}`}
         >
           <p style={{ color: 'var(--secondary-white)', marginRight: '8px' }}>
-            ¿No tienes cuenta?
+            No Account Yet?
           </p>
           <button
             onClick={handleClickRegister}
@@ -149,7 +149,7 @@ export default function StartMenu({
               padding: '0px',
             }}
           >
-            Regístrate en Spotify Electron
+            Register Now to DexBand
           </button>
         </div>
       </div>

@@ -126,25 +126,25 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
           <img
             src={SpotifyElectronLogo}
             className="img-fluid"
-            alt="Spotify Electron Logo"
+            alt="DexBand Logo"
           />
-          <h2>Spotify Electron</h2>
+          <h2>DexBand</h2>
         </div>
 
         <hr />
 
-        <h1>Regístrate en Spotify Electron</h1>
+        <h1>Regístrate en DexBand</h1>
         <form className={`d-flex flex-column ${styles.formWrapper} w-100`}>
           <label
             htmlFor="username"
             className="d-flex flex-column justify-content-start"
           >
-            Nombre de usuario
+            Please enter your username
             <input
               type="text"
               name="nombre"
               id="nombre"
-              placeholder="Nombre de usuario"
+              placeholder="Please enter your username"
               onChange={handleChange}
               spellCheck={false}
               required
@@ -171,12 +171,12 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
               htmlFor="password"
               className="d-flex flex-column justify-content-start"
             >
-              Contraseña
+              Enter your password
               <input
                 type="password"
                 name="password"
                 id="password"
-                placeholder="Contraseña"
+                placeholder="Enter your password"
                 onChange={handleChange}
                 spellCheck={false}
                 required
@@ -231,7 +231,7 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
               padding: '0px',
             }}
           >
-            Inicia sesión en Spotify Electron
+            Welcome.  Start DexBand Session
           </button>
         </div>
       </div>
