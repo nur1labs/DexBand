@@ -133,7 +133,7 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
 
         <hr />
 
-        <h1>Regístrate en DexBand</h1>
+        <h1>Register to DexBand</h1>
         <form className={`d-flex flex-column ${styles.formWrapper} w-100`}>
           <label
             htmlFor="username"
@@ -154,12 +154,12 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
             htmlFor="url"
             className="d-flex flex-column justify-content-start"
           >
-            Foto de perfil
+            Profile picture
             <input
               type="text"
               name="foto"
               id="foto"
-              placeholder="Foto de perfil"
+              placeholder="Profile picture"
               onChange={handleChange}
               spellCheck={false}
               required
@@ -187,12 +187,12 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
               htmlFor="password"
               className="d-flex flex-column justify-content-start"
             >
-              Confirma tu contraseña
+              Confirm your password
               <input
                 type="password"
                 name="confirmpassword"
                 id="confirmpassword"
-                placeholder="Confirma tu contraseña"
+                placeholder="Confirm your password"
                 onChange={handleChange}
                 spellCheck={false}
                 required
@@ -208,7 +208,7 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
             className={`${styles.registerButton}`}
             onClick={handleRegister}
           >
-            Registrar
+            Register
           </button>
         </form>
 
@@ -218,7 +218,7 @@ export default function RegisterMenu({ setIsSigningUp }: PropsRegisterMenu) {
           className={`d-flex w-100 justify-content-center ${styles.wrapperRegisterText}`}
         >
           <p style={{ color: 'var(--secondary-white)', marginRight: '8px' }}>
-            ¿Ya tienes una cuenta?
+            Do you already have an account?
           </p>
           <button
             onClick={handleClickLogin}
